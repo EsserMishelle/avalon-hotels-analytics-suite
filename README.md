@@ -1,49 +1,50 @@
-Hotel Booking Demand Analysis
-Project Overview
+# Hotel Booking Demand Analysis
+## Overview
 
 This project explores hotel booking demand patterns using a real-world dataset containing reservation information for both city hotels and resort hotels. The goal of the analysis is to understand booking behavior, cancellation patterns, seasonal trends, and factors that influence hotel demand.
 
-Through exploratory data analysis (EDA), the project identifies key drivers of reservations and cancellations that can help hotels improve operational planning, pricing strategies, and customer management.
+## Problem Statement
+The hospitality industry operates in a highly competitive environment where understanding customer booking behavior is essential for improving operational efficiency and revenue management. Hotels must analyze patterns in reservations, cancellations, pricing, and customer preferences to make informed business decisions.
 
-Dataset
+This project uses exploratory data analysis (EDA) on a hotel booking dataset to identify trends in demand, customer behavior, and booking characteristics. The analysis aims to uncover insights that can support strategic decision-making related to pricing strategies, marketing efforts, and service improvements.
 
-The dataset contains hotel booking records including:
+## Key objectives include:
 
-booking lead time
+* Analyzing booking demand and seasonal trends
+* Understanding customer segments and booking channels
+* Investigating cancellation patterns
+* Evaluating pricing behavior through Average Daily Rate (ADR)
+* Insights from this analysis can help hotels optimize occupancy rates, revenue generation, and overall customer satisfaction.
 
-arrival dates
-
-length of stay
-
-customer type
-
-market segment
-
-cancellation status
-
-average daily rate (ADR)
-
-number of guests
-
+## Dataset
 The data includes bookings for both City Hotel and Resort Hotel, allowing comparisons between different hotel types.
+Key variables used in the analysis include:
 
-Key Analysis Areas
+| Column | Description |
+|------|-------------|
+| hotel | Type of hotel (City Hotel or Resort Hotel) |
+| lead_time | Number of days between booking and arrival |
+| arrival_date_year | Year of arrival |
+| arrival_date_month | Month of arrival |
+| stays_in_weekend_nights | Number of weekend nights booked |
+| stays_in_week_nights | Number of weekday nights booked |
+| adults, children, babies | Number of guests in the reservation |
+| market_segment | Market segment category |
+| is_canceled | Indicates whether the booking was canceled |
+| adr | Average Daily Rate (room price per night) |
+| customer_type | Type of customer making the reservation |
+
+## Key Analysis Areas
 
 The analysis focuses on several important aspects of hotel operations:
+* Booking trends over time
+* Seasonality of hotel demand
+* Cancellation patterns
+* Customer segmentation
+* Length of stay behavior
+* Pricing patterns (ADR)
 
-Booking trends over time
-
-Seasonality of hotel demand
-
-Cancellation patterns
-
-Customer segmentation
-
-Length of stay behavior
-
-Pricing patterns (ADR)
-
-Key Insights
+## Key Insights
 
 Several patterns emerge from the analysis:
 
@@ -70,13 +71,9 @@ Matplotlib / Seaborn
 Jupyter Notebook
 
 ## Key Insights
-* Hotel demand shows strong seasonal trends with peaks during summer months.
 
-* City hotels receive more bookings overall, while resort hotels show greater seasonal variability.
 
-* A notable portion of bookings are canceled before arrival, highlighting the importance of cancellation policies.
 
-* Lead time varies widely, suggesting differences in traveler planning behavior.
 
 ## Conclusion
 This analysis demonstrates how booking data can reveal patterns in demand, customer behavior, and cancellations. These insights can support better operational planning, pricing strategies, and future demand forecasting for hotels.
