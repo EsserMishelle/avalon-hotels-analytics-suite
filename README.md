@@ -68,3 +68,15 @@ Pandas
 Matplotlib / Seaborn
 
 Jupyter Notebook
+
+## Key Insights
+* Hotel demand shows strong seasonal trends with peaks during summer months.
+
+* City hotels receive more bookings overall, while resort hotels show greater seasonal variability.
+
+* A notable portion of bookings are canceled before arrival, highlighting the importance of cancellation policies.
+
+* Lead time varies widely, suggesting differences in traveler planning behavior.
+
+## Conclusion
+This analysis demonstrates how booking data can reveal patterns in demand, customer behavior, and cancellations. These insights can support better operational planning, pricing strategies, and future demand forecasting for hotels.
