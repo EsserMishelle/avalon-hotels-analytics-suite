@@ -126,24 +126,21 @@ The ROC curve compares the classification performance of Logistic Regression and
 
 The steeper and wider curve of the Random Forest model shows that it achieves a higher true positive rate for the same false positive rate across most thresholds. This suggests that Random Forest provides better overall predictive performance for the cancellation prediction task.
 
-## Key Insights
+## Key Insights & Business Implications
 
-Several patterns emerge from the analysis:
+1. Cancellation prediction can support revenue management.
+Predicting cancellations allows hotels to anticipate lost bookings and adjust pricing, overbooking strategies, or promotional offers to maintain occupancy levels.
 
-Hotel demand shows clear seasonal trends, with higher booking volumes during peak travel months.
+2. Model choice affects operational strategy.
+Logistic Regression identifies a larger share of actual cancellations, which may help hotels proactively manage potential revenue loss. Random Forest, however, provides more reliable predictions when identifying cancellations, reducing false alarms.
 
-City hotels receive more bookings overall, while resort hotels show stronger seasonal fluctuations.
+3. Trade-off between recall and precision.
+If the business goal is to capture as many potential cancellations as possible, Logistic Regression may be preferred. If the goal is to avoid unnecessary interventions, Random Forest may be the better choice.
 
-A significant portion of reservations are canceled before arrival, highlighting the importance of cancellation management strategies.
-
-Lead time varies widely, indicating differences in traveler planning behavior.
-
-Certain market segments and customer types contribute more heavily to overall bookings.
-
-These insights can help hotels improve demand forecasting, staffing decisions, and revenue management strategies.
-
-
-
+4. Predictive analytics can improve operational planning.
+Early detection of cancellation risk allows hotels to adjust staffing, marketing campaigns, and room inventory management.
 
 ## Conclusion
-This analysis demonstrates how booking data can reveal patterns in demand, customer behavior, and cancellations. These insights can support better operational planning, pricing strategies, and future demand forecasting for hotels.
+This analysis compared Logistic Regression and Random Forest models to predict hotel booking cancellations. While Logistic Regression serves as a strong baseline and captures a larger share of actual cancellations, Random Forest provides better overall predictive performance, achieving higher accuracy and stronger F1-scores across both classes. These results demonstrate the value of ensemble models when modeling complex booking behavior.
+
+Future work could extend this analysis by exploring additional predictive tasks such as forecasting booking revenue, predicting average daily rate (ADR), or improving cancellation prediction using additional features and more advanced models.
