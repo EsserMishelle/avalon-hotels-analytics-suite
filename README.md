@@ -17,7 +17,8 @@ This project uses exploratory data analysis (EDA) on a hotel booking dataset to 
 * Insights from this analysis can help hotels optimize occupancy rates, revenue generation, and overall customer satisfaction.
 
 ## Dataset
-The data includes bookings for both City Hotel and Resort Hotel, allowing comparisons between different hotel types.
+This dataset is obtained from Kaggle. It includes bookings for both City Hotel and Resort Hotel, allowing comparisons between different hotel types. 
+
 Key variables used in the analysis include:
 
 | Column | Description |
@@ -44,6 +45,42 @@ The analysis focuses on several important aspects of hotel operations:
 * Length of stay behavior
 * Pricing patterns (ADR)
 
+## Exploratory Data Analysis (EDA)
+<img width="1022" height="188" alt="image" src="https://github.com/user-attachments/assets/0c6fa01b-7497-432a-965b-2add5ee65410" />
+<img width="1307" height="183" alt="image" src="https://github.com/user-attachments/assets/00ea089d-a4e4-4e30-8314-67e149a9418a" />
+The hotel DataFrame contains 119,390 entries and 32 columns. It has null values in the following fields: children (4), country (452), agent (12,193), and company (82,137). Additionally, there are 31,994 duplicate entries.
+
+After cleaning and transformation, the final dataset has 87212 rows and 35 columns.
+
+## EDA Charts 
+**Cancellation by Market Segment**
+
+<img width="579" height="340" alt="image" src="https://github.com/user-attachments/assets/deae843a-fc45-4cde-8d10-ab6986dbe266" />
+
+Cancellation rates are highest for Groups and Online TA bookings and lowest for Corporate and Complementary bookings.
+
+**Cancellation Distribution and Cancellation By Hotel Type**
+<img width="533" height="353" alt="image" src="https://github.com/user-attachments/assets/786cb9bd-9afd-4fbc-8b94-637f6ed4e468" />
+
+Most bookings are completed, but cancellation rates differ by hotel type, with city hotels experiencing more cancellations than resort hotels.
+
+**Lead Time vs. Cancellation**
+
+<img width="395" height="305" alt="image" src="https://github.com/user-attachments/assets/c605c16d-182a-4c73-bf63-6e4e5ab7198f" />
+
+The adverage cancellation lead time is around 80 days. Cancelled bookings generally have longer lead times than non-cancelled bookings, suggesting that reservations made further in advance are more uncertain.
+
+**Cancellation by deposit type**
+
+<img width="558" height="649" alt="image" src="https://github.com/user-attachments/assets/b5869b14-f90c-413b-9239-4d44b0fe49da" />
+
+Most bookings are made without deposits. Non-refundable deposits show the highest cancellation rate, while refundable deposits have the lowest. However, refundable bookings account for only a small number of reservations, so **the percentage should be interpreted with caution.**
+
+## Model Comparison
+
+
+
+
 ## Key Insights
 
 Several patterns emerge from the analysis:
@@ -60,19 +97,7 @@ Certain market segments and customer types contribute more heavily to overall bo
 
 These insights can help hotels improve demand forecasting, staffing decisions, and revenue management strategies.
 
-Tools Used
-
-Python
-
-Pandas
-
-Matplotlib / Seaborn
-
-Jupyter Notebook
-
-## Key Insights
-
-
+T
 
 
 ## Conclusion
