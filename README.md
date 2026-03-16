@@ -108,7 +108,7 @@ Random Forest is a tree-based ensemble model to capture nonlinear relationships 
 ## Model Evaulation
 ### Classification Report
 
-<img width="371" height="457" alt="image" src="https://github.com/user-attachments/assets/7b8ae3c2-64c0-45e3-abe1-68a810b1cb71" />
+<img width="379" height="526" alt="image" src="https://github.com/user-attachments/assets/3216c46f-72f2-4d31-8e0e-2a9fd8831f1c" />
 
 The Logistic Regression classification report shows that When the model predicts that a booking will not be canceled, it is correct 90% of the time. It also correctly identifies 77% of cancellations, but its precision is lower (53%), meaning some bookings predicted as canceled are actually completed. This Logistic Regression is the first baseline model.
 
@@ -118,7 +118,7 @@ Random Forest achieves the highest overall accuracy (85% vs 75%)and precision wh
 
 The F1-scores for both completed bookings and canceled bookings are higher for Random Forest (0.90 and 0.69) than for Logistic Regression (0.81 and 0.63). This indicates that Random Forest provides a better overall balance between precision and recall across both classes, resulting in stronger overall predictive performance.
 
-
+### ROC Curves and AUC Scores
 ## Key Insights
 
 Several patterns emerge from the analysis:
