@@ -85,7 +85,7 @@ Guests with a history of previous cancellations tend to have higher cancellation
 
 ## Heatmap Chart
 
-<img width="603" height="503" alt="image" src="https://github.com/user-attachments/assets/00219e78-51b4-4ba9-a996-67b4191ed0f5" />
+<img width="967" height="779" alt="image" src="https://github.com/user-attachments/assets/ab1ee4e1-4150-4084-aa7e-f369f917544a" />
 
 The heatmap shows several redundant variables. For example, total_nights is highly correlated with stays_in_week_nights (0.95) and stays_in_weekend_nights (0.78), while total_guests is strongly correlated with adults (0.74) and children (0.67). These relationships suggest overlapping information among features.
 
