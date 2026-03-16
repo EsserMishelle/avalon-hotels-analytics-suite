@@ -91,9 +91,32 @@ The heatmap shows several redundant variables. For example, total_nights is high
 
 Most numerical features show weak correlations with booking cancellations. Lead time and average daily rate (ADR) show modest positive relationships with cancellations, while required parking spaces and special requests show negative relationships, suggesting stronger commitment among these bookings.
 
+## Models
+### Logistic Regression
+
+A Logistic Regression model is used as the initial baseline classifier to predict booking cancellations. Since is_canceled is a binary outcome, Logistic Regression provides an interpretable and efficient starting point for evaluating how booking characteristics relate to cancellation behavior.
+
+### Random Forest
+
+Random Forest is a tree-based ensemble model to capture nonlinear relationships and interactions among booking features. Unlike Logistic Regression, which assumes a linear relationship between predictors and the outcome, Random Forest constructs multiple decision trees using bootstrapped samples of the data and aggregates their predictions. This approach can improve predictive performance and robustness, particularly when complex patterns exist in the dataset. The Random Forest model is evaluated alongside Logistic Regression to determine whether a more flexible, non-linear method improves cancellation prediction accuracy.
+
 ## Model Comparison
+### Confusion Matrix
 
+<img width="766" height="414" alt="image" src="https://github.com/user-attachments/assets/e2471e9b-fa79-4871-aeae-170a0812769f" />
 
+## Model Evaulation
+### Classification Report
+
+<img width="371" height="457" alt="image" src="https://github.com/user-attachments/assets/7b8ae3c2-64c0-45e3-abe1-68a810b1cb71" />
+
+The Logistic Regression classification report shows that When the model predicts that a booking will not be canceled, it is correct 90% of the time. It also correctly identifies 77% of cancellations, but its precision is lower (53%), meaning some bookings predicted as canceled are actually completed. This Logistic Regression is the first baseline model.
+
+The Random Forest classification report shows that When the model predicts that a booking will not be canceled, it is slightly less correct 87% of the time. It also correctly identifying fewer cancellations at 63%, but its precision is higher (77%), meaning some bookings predicted as canceled are actually completed.
+
+Random Forest achieves the highest overall accuracy (85% vs 75%)and precision when predicting cancellations. However, Logistic Regression has higher recall for canceled bookings, meaning it identifies a larger share of actual cancellations. This highlights the trade-off between minimizing false positives and capturing more true cancellations.
+
+The F1-scores for both completed bookings and canceled bookings are higher for Random Forest (0.90 and 0.69) than for Logistic Regression (0.81 and 0.63). This indicates that Random Forest provides a better overall balance between precision and recall across both classes, resulting in stronger overall predictive performance.
 
 
 ## Key Insights
@@ -112,7 +135,7 @@ Certain market segments and customer types contribute more heavily to overall bo
 
 These insights can help hotels improve demand forecasting, staffing decisions, and revenue management strategies.
 
-T
+
 
 
 ## Conclusion
