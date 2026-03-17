@@ -72,7 +72,7 @@ The median lead time for cancled booking is around 80 days. The canceled box is 
 
 **Cancellation by Market Segment**
 
-<img width="579" height="340" alt="image" src="https://github.com/user-attachments/assets/deae843a-fc45-4cde-8d10-ab6986dbe266" />
+<img width="669" height="413" alt="image" src="https://github.com/user-attachments/assets/a4ef28fe-a8ed-4275-adb8-b888c107106c" />
 
 Cancellation rates are highest for Groups and Online TA bookings and lowest for Corporate and Complementary bookings.
 
