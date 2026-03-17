@@ -57,11 +57,6 @@ The hotel DataFrame contains 119,390 entries and 32 columns. It has null values 
 After cleaning and transformation, the final dataset has 87212 rows and 35 columns.
 
 ## EDA Charts 
-**Cancellation by Market Segment**
-
-<img width="579" height="340" alt="image" src="https://github.com/user-attachments/assets/deae843a-fc45-4cde-8d10-ab6986dbe266" />
-
-Cancellation rates are highest for Groups and Online TA bookings and lowest for Corporate and Complementary bookings.
 
 **Cancellation Distribution and Cancellation By Hotel Type**
 
@@ -74,6 +69,22 @@ Most bookings are completed, but cancellation rates differ by hotel type, with c
 <img width="395" height="305" alt="image" src="https://github.com/user-attachments/assets/c605c16d-182a-4c73-bf63-6e4e5ab7198f" />
 
 The median lead time for cancled booking is around 80 days. The canceled box is also wider/longer, which means there's more variability in lead time. The upper whisker is much higher for the cancel boxplot, indicating some bookings made very far in advance have been canceled. Cancelled bookings generally have longer lead times than non-cancelled bookings, suggesting that reservations made further in advance are more uncertain.
+
+**Cancellation by Market Segment**
+
+<img width="579" height="340" alt="image" src="https://github.com/user-attachments/assets/deae843a-fc45-4cde-8d10-ab6986dbe266" />
+
+Cancellation rates are highest for Groups and Online TA bookings and lowest for Corporate and Complementary bookings.
+
+**Cancellation by market segment across channels**
+
+<img width="505" height="342" alt="image" src="https://github.com/user-attachments/assets/b3fe4026-7c79-4c78-8fe6-602b679a782b" />
+
+The heatmap illustrates cancellation rates across combinations of market segments and distribution channels. Higher cancellation rates are observed in indirect booking channels, particularly for Online Travel Agency (Online TA) segments through TA/TO channels. In contrast, direct bookings exhibit lower cancellation rates, indicating stronger customer commitment. 
+
+
+These findings highlight the importance of booking channel and customer segment in predicting cancellation behavior.
+
 
 **Cancellation by Weekdays**
 
