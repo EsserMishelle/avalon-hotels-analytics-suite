@@ -73,7 +73,7 @@ Most bookings are completed, but cancellation rates differ by hotel type, with c
 
 <img width="395" height="305" alt="image" src="https://github.com/user-attachments/assets/c605c16d-182a-4c73-bf63-6e4e5ab7198f" />
 
-The adverage cancellation lead time is around 80 days. The canceled box is also wider/longer, which means there's more variability in lead time. The upper whisker is much higher for the cancel boxplot, indicating some bookings made very far in advance have been canceled. Cancelled bookings generally have longer lead times than non-cancelled bookings, suggesting that reservations made further in advance are more uncertain.
+The median lead time for cancled booking is around 80 days. The canceled box is also wider/longer, which means there's more variability in lead time. The upper whisker is much higher for the cancel boxplot, indicating some bookings made very far in advance have been canceled. Cancelled bookings generally have longer lead times than non-cancelled bookings, suggesting that reservations made further in advance are more uncertain.
 
 **Cancellation by Weekdays**
 
@@ -123,9 +123,9 @@ Random Forest is a tree-based ensemble model to capture nonlinear relationships 
 
 The Logistic Regression classification report shows that when the model predicts that a booking will not be canceled, it is correct 90% of the time. It also correctly identifies 77% of cancellations, but its precision is lower (53%), meaning some bookings predicted as canceled are actually completed. This Logistic Regression is the first baseline model.
 
-The Random Forest classification report shows that When the model predicts that a booking will not be canceled, it is slightly less correct 87% of the time. It also correctly identifying fewer cancellations at 63%, but its precision is higher (77%), meaning some bookings predicted as canceled are actually completed.
+The Random Forest classification report shows that when the model predicts that a booking will not be canceled, it is slightly less correct 87% of the time. It also correctly identifying fewer cancellations at 63%, but its precision is higher (77%), meaning some bookings predicted as canceled are actually completed.
 
-Random Forest achieves the highest overall accuracy (85% vs 75%)and precision when predicting cancellations. However, Logistic Regression has higher recall for canceled bookings, meaning it identifies a larger share of actual cancellations. This highlights the trade-off between minimizing false positives and capturing more true cancellations.
+Random Forest achieves the highest overall accuracy (85% vs 75%) and precision when predicting cancellations. However, Logistic Regression has higher recall for canceled bookings, meaning it identifies a larger share of actual cancellations. This highlights the trade-off between minimizing false positives and capturing more true cancellations.
 
 The F1-scores for both completed bookings and canceled bookings are higher for Random Forest (0.90 and 0.69) than for Logistic Regression (0.81 and 0.63). This indicates that Random Forest provides a better overall balance between precision and recall across both classes, resulting in stronger overall predictive performance.
 
