@@ -8,7 +8,7 @@ src="https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/as
 
 The Avalon Hotels Booking Analytics project analyzes hotel reservation patterns, cancellation behavior, and Average Daily Rate (ADR) performance to uncover operational risks and revenue optimization opportunities across resort and city hotels.
 
-The analysis reveals that cancellation behavior varies significantly across customer segments, booking lead times, and booking channels. The overall cancellation rate reached **27.51%**, indicating that more than one in four bookings were canceled prior to arrival.
+The analysis indicates that Avalon Hotels generated approximately **$23.0M in revenue** with an average ADR of **$106.48**, despite maintaining a relatively high cancellation rate of **27.51%**. These metrics highlight the importance of balancing pricing strategy, occupancy management, and cancellation forecasting to sustain operational profitability.
 
 High-risk segments such as Online Travel Agencies (OTAs) and long lead-time reservations contributed disproportionately to cancellations, while direct bookings and shorter lead times demonstrated stronger booking stability.
 
@@ -18,19 +18,19 @@ The dashboards were designed to support hotel executives, revenue managers, and 
 
 ---
 
-# Project Objectives
+## Project Objectives
 
-| Objective | Business Goal |
-|---|---|
-| Analyze hotel booking trends | Identify seasonal booking demand patterns |
-| Evaluate cancellation behavior | Reduce revenue loss from booking cancellations |
-| Investigate ADR performance | Improve pricing and occupancy strategies |
-| Compare hotel types and customer segments | Understand high-value and high-risk customer groups |
-| Develop executive dashboards | Support operational and strategic decision-making |
+The Avalon Hotels Booking Analytics project was conducted to meet the following business objectives: 
+
+- Analyze hotel booking trends to identify seasonal demand patterns and operational booking behavior
+- Evaluate cancellation behavior to better understand and reduce revenue loss from canceled reservations
+- Investigate Average Daily Rate (ADR) performance to support pricing optimization and occupancy strategies
+- Compare hotel types and customer segments to identify high-value and high-risk customer groups
+- Develop executive dashboards to support operational monitoring and strategic decision-making
 
 ---
 
-# Key Metrics Measured
+## Key Metrics Measured
 
 | Metric | Description |
 |---|---|
