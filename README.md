@@ -42,13 +42,13 @@ These key metrics were utilized to evaluate relationships between booking behavi
 | Market Segment Performance | Booking and cancellation trends across customer groups |
 | Customer Type Analysis | Booking and cancellation behavior across customer categories |
 | Guest Composition | Analysis of solo travelers, couples, families, and group bookings |
-| Hotel Typee | Comparison between City and Resort hotels |
+| Hotel Type | Comparison between City and Resort hotels |
 | Stay Length | ADR and booking behavior by duration of stay |
 ---
 
 ## Dataset
 
-The Avalon Hotels Analytics Suite uses the Hotel Booking Demand Dataset containing reservation information for both resort hotels and city hotels between July 2015 and August 2017. The dataset includes approximately 119K hotel booking records and features related to reservation details, customer segmentation, Average Daily Rate (ADR), booking lead time, cancellation behavior, booking channels, deposit policies, and stay duration. A complete data dictionary containing detailed field definitions and variable descriptions is attached below.
+The Avalon Hotels Analytics Suite uses the Hotel Booking Demand Dataset from Kaggle, containing reservation information for both resort hotels and city hotels between July 2015 and August 2017. The dataset includes approximately 119K hotel booking records and features related to reservation details, customer segmentation, Average Daily Rate (ADR), booking lead time, cancellation behavior, booking channels, deposit policies, and stay duration. A complete data dictionary containing detailed field definitions and variable descriptions is attached below.
 
 [Avalon Hotels Data Dictionary](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/assets/avalon_hotels_data_dictionary.xlsx)
 
@@ -63,11 +63,11 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 ---
 
-# Dashboard Overview
+## Dashboard Overview
 
-# 1. Cancellation Overview Dashboard
+### 1. Cancellation Overview Dashboard
 
-## Key Insights
+#### Key Insights
 
 | Insight | Business Impact |
 |---|---|
@@ -77,7 +77,7 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 | Longer booking lead times correlated with higher cancellation rates | Early reservations carry greater cancellation risk |
 | Tuesday and Wednesday showed the highest negative cancellation variance | Midweek booking behavior may require closer monitoring |
 
-## Strategic Recommendations
+#### Strategic Recommendations
 
 | Recommendation | Expected Outcome |
 |---|---|
@@ -90,9 +90,9 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 ---
 
-# 2. ADR Performance Dashboard
+## 2. ADR Performance Dashboard
 
-## Key Insights
+#### Key Insights
 
 | Insight | Business Impact |
 |---|---|
@@ -102,7 +102,7 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 | No-deposit reservations generated the highest ADR values | Flexible booking customers may provide higher revenue potential |
 | ADR distribution varied widely across market segments | Customer segmentation strongly influences pricing performance |
 
-## Strategic Recommendations
+#### Strategic Recommendations
 
 | Recommendation | Expected Outcome |
 |---|---|
@@ -113,9 +113,9 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 ---
 
-# 3. Booking Behavior & Customer Insights Dashboard
+## 3. Booking Behavior & Customer Insights Dashboard
 
-## Key Insights
+#### Key Insights
 
 | Insight | Business Impact |
 |---|---|
@@ -125,7 +125,7 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 | Very long lead-time bookings showed weaker ADR performance | Long-term reservations may reduce pricing flexibility |
 | ADR distribution displayed significant outliers across booking channels | High-spending customer segments exist within specific channels |
 
-## Strategic Recommendations
+#### Strategic Recommendations
 
 | Recommendation | Expected Outcome |
 |---|---|
@@ -136,7 +136,7 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 ---
 
-# Visualization Techniques Used
+## Visualization Techniques Used
 
 | Visualization | Purpose |
 |---|---|
@@ -151,7 +151,7 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 ---
 
-# Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |---|---|
@@ -162,7 +162,7 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 ---
 
-# Conclusion
+## Conclusion
 
 The Avalon Hotels Booking Analytics project demonstrates how hospitality organizations can leverage data visualization and operational analytics to improve booking management, pricing strategies, and customer segmentation decisions.
 
