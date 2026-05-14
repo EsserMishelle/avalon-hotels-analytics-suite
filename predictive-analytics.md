@@ -1,6 +1,6 @@
-<img width="800" height="450" alt="Avalon Hotels Analytics Suite" src="https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/assets/avalon-hotels-analytics-suites-logo.png" />
+<img width="800" height="450" alt="Avalon Hotels Analytics Suite" src="https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/assets/avalon-hotesl-predictive-modeling-logo.png" />
 
-https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/assets/avalon-hotesl-predictive-modeling-logo.png.png
+
 # Avalon Hotels Predictive Analytics
 
 ## Overview
