@@ -1,67 +1,72 @@
 <img width="800" height="450" alt="Avalon Hotels Analytics Suite" src="https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/assets/avalon-hotels-analytics-suites-logo.png" />
 
 # Avalon Hotels Predictive Analytics
+
 ## Overview
 
-Avalon Hotels Analytics Suite is a hospitality analytics and forecasting project designed to explore hotel booking behavior, cancellation trends, customer segmentation, pricing performance, and operational demand patterns across resort and city hotels.
+Avalon Hotels Predictive Analytics explores hotel booking cancellation behavior using exploratory data analysis (EDA), forecasting techniques, and machine learning models.
 
-The project combines exploratory data analysis (EDA), predictive analytics, and interactive business intelligence dashboards to uncover insights that support hotel revenue management, occupancy optimization, and customer strategy development.
+Using reservation data from resort and city hotels, the project analyzes patterns related to booking lead time, customer segmentation, booking channels, and seasonal demand to identify factors associated with hotel reservation cancellations.
 
-Using real-world reservation data, the analysis investigates how booking channels, customer types, lead times, and seasonal demand influence cancellation behavior.
+The analysis focuses on predictive modeling techniques that support occupancy planning, revenue management, and operational forecasting within the hospitality industry.
+
+---
 
 ## Business Problem
 
-The hospitality industry operates in a highly competitive and demand-sensitive environment where hotels must continuously optimize pricing, occupancy, and customer acquisition strategies.
+Hotel cancellations create significant operational and revenue challenges for hospitality organizations. Unexpected cancellations can negatively impact occupancy forecasting, staffing allocation, pricing strategies, and overall revenue performance.
 
-Avalon Hotels Analytics Suite addresses these challenges through data exploration and forecasting analysis to support data-informed business decisions.
+This project applies predictive analytics to identify cancellation risk patterns and evaluate machine learning models capable of supporting more proactive operational decision-making.
+
+---
 
 ## Project Objectives
 
-| Objective | Business Goal |
-|---|---|
-| Analyze hotel booking demand | Identify seasonal and operational booking trends |
-| Investigate cancellation behavior | Reduce revenue loss from cancellations |
-| Explore customer segmentation | Identify high-value and high-risk customer groups |
+The primary objectives of this project are to:
+- analyze hotel booking and cancellation behavior,
+- identify operational patterns associated with reservation cancellations,
+- evaluate predictive machine learning models.
 
 ## Dataset
 
-This project uses the **Hotel Booking Demand Dataset** from **Kaggle**, containing reservation information for both resort hotels and city hotels.
+<img width="1022" height="188" alt="DataFrame summary" src="https://github.com/user-attachments/assets/0c6fa01b-7497-432a-965b-2add5ee65410" />
 
-| Attribute | Details |
-|---|---|
-| Dataset Source | Kaggle |
-| Hotel Types | Resort Hotel & City Hotel |
-| Initial Records | 119,390 |
-| Initial Columns | 32 |
-| Final Records After Cleaning | 87,212 |
-| Final Columns After Feature Engineering | 35 |
+<img width="1307" height="183" alt="Cleaned dataset summary" src="https://github.com/user-attachments/assets/00ea089d-a4e4-4e30-8314-67e149a9418a" />
 
-## Data Cleaning & Preparation
+This project uses the **Hotel Booking Demand Dataset** from **Kaggle**, which contains reservation information for both resort hotels and city hotels.
 
-The original dataset contained missing values, duplicate reservation records, and fields requiring transformation before analysis.
+## Exploratory Data Analysis
 
-| Column | Missing Values |
-|---|---|
-| children | 4 |
-| country | 452 |
-| agent | 12,193 |
-| company | 82,137 |
+Exploratory analysis was conducted to better understand reservation behavior, identify data quality issues, and evaluate patterns associated with hotel booking cancellations.
 
-Data preparation included:
+The analysis revealed:
 
-- Removed duplicate reservation entries
-- Handled null and missing values
-- Performed feature engineering and transformation
-- Standardized categorical variables
-- Prepared data for exploratory analysis and forecasting workflows
+-  **119,390 reservation records** across **32 variables**, 
+- missing values across several operational fields: children (4), country (452), agent (12,193) and company (82,137). 
+- approximately **31,994 duplicate reservation entries**,
+- and notable variation in booking behavior across segments and hotel types, covering booking details, customer information, stay duration, pricing metrics, booking channels, and cancellation indicators.
+
+---
+
+### Data Cleaning and Preparation
+
+- Removed duplicate reservation records
+- Handled missing and null values
+- Performed feature engineering and data transformation
+- Standardized selected categorical variables
+- Prepared data for exploratory analysis and predictive modeling workflows
+
+After data cleaning, duplicate removal, and feature transformation, the final analytical dataset contained **87,213 records** and **32 columns**.
+
+---
 
 ## Key Variables Used in the Analysis
 
-The project focuses on the most important operational and business variables. These are not the only variables in the dataset, but they are the key variables used for the main analysis.
+The analysis focuses on operational and customer-related variables most relevant to hotel booking behavior and cancellation prediction.
 
 | Variable | Description |
 |---|---|
-| hotel | Type of hotel: City Hotel or Resort Hotel |
+| hotel | Hotel category (City Hotel or Resort Hotel) |
 | lead_time | Number of days between booking and arrival |
 | arrival_date_year | Arrival year |
 | arrival_date_month | Arrival month |
@@ -70,20 +75,17 @@ The project focuses on the most important operational and business variables. Th
 | adults / children / babies | Guest composition |
 | market_segment | Booking acquisition segment |
 | is_canceled | Reservation cancellation indicator |
-| adr | Average Daily Rate, or room price per night |
+| adr | Average Daily Rate (room price per night) |
 | customer_type | Customer reservation category |
 
-These variables were selected because they directly support analysis of booking demand, cancellation behavior, occupancy trends, customer segmentation, and revenue performance.
+These variables were selected because they support analysis of:
+- cancellation behavior,
+- customer segmentation,
+- booking demand patterns,
+- occupancy trends,
+- and pricing performance.
 
-## Exploratory Data Analysis
-
-<img width="1022" height="188" alt="DataFrame summary" src="https://github.com/user-attachments/assets/0c6fa01b-7497-432a-965b-2add5ee65410" />
-
-<img width="1307" height="183" alt="Cleaned dataset summary" src="https://github.com/user-attachments/assets/00ea089d-a4e4-4e30-8314-67e149a9418a" />
-
-The hotel DataFrame contains 119,390 entries and 32 columns. It has null values in the following fields: children (4), country (452), agent (12,193), and company (82,137). Additionally, there are 31,994 duplicate entries.
-
-After cleaning and transformation, the final dataset has 87212 rows and 35 columns.
+---
 
 ## EDA Charts 
 
