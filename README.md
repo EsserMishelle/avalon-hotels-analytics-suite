@@ -1,53 +1,194 @@
-# Hotel Booking Demand Analysis
+# Avalon Hotels Analytics Suite
 
-<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/683d2ed7-d9ce-485e-b7db-cfc399298cb3" />
-
+<img width="800" height="450" alt="Avalon Hotels Analytics Suite" src="https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/assets/avalon-hotels-analytics-suites-logo.png" />
 
 ## Overview
 
-This project explores hotel booking demand patterns using a real-world dataset containing reservation information for both city hotels and resort hotels. The goal of the analysis is to understand booking behavior, cancellation patterns, seasonal trends, and factors that influence hotel demand.
+Avalon Hotels Analytics Suite is a hospitality analytics and forecasting project designed to explore hotel booking behavior, cancellation trends, customer segmentation, pricing performance, and operational demand patterns across resort and city hotels.
 
-## Problem Statement
-The hospitality industry operates in a highly competitive environment where understanding customer booking behavior is essential for improving operational efficiency and revenue management. Hotels must analyze patterns in reservations, cancellations, pricing, and customer preferences to make informed business decisions.
+The project combines exploratory data analysis (EDA), predictive analytics, and interactive business intelligence dashboards to uncover insights that support hotel revenue management, occupancy optimization, and customer strategy development.
 
-This project uses exploratory data analysis (EDA) on a hotel booking dataset to identify trends in demand, customer behavior, and booking characteristics. The analysis aims to uncover insights that can support strategic decision-making related to pricing strategies, marketing efforts, and service improvements.
+Using real-world reservation data, the analysis investigates how booking channels, customer types, lead times, and seasonal demand influence cancellation behavior and Average Daily Rate (ADR) performance.
 
-## Key objectives include:
+## Business Problem
 
-* Analyzing booking demand and seasonal trends
-* Understanding customer segments and booking channels
-* Investigating cancellation patterns
-* Evaluating pricing behavior through Average Daily Rate (ADR)
-* Insights from this analysis can help hotels optimize occupancy rates, revenue generation, and overall customer satisfaction.
+The hospitality industry operates in a highly competitive and demand-sensitive environment where hotels must continuously optimize pricing, occupancy, and customer acquisition strategies.
+
+Avalon Hotels Analytics Suite addresses these challenges through data exploration, forecasting analysis, and KPI-driven dashboard reporting to support data-informed business decisions.
+
+## Project Objectives
+
+| Objective | Business Goal |
+|---|---|
+| Analyze hotel booking demand | Identify seasonal and operational booking trends |
+| Investigate cancellation behavior | Reduce revenue loss from cancellations |
+| Evaluate ADR performance | Improve pricing and revenue optimization |
+| Explore customer segmentation | Identify high-value and high-risk customer groups |
+| Analyze booking channels | Understand reservation source performance |
+| Develop forecasting insights | Support operational planning and demand prediction |
+| Create executive dashboards | Enable data-driven hospitality decision-making |
 
 ## Dataset
-This dataset is obtained from Kaggle. It includes bookings for both City Hotel and Resort Hotel, allowing comparisons between different hotel types. 
 
-Key variables used in the analysis include:
+This project uses the **Hotel Booking Demand Dataset** from **Kaggle**, containing reservation information for both resort hotels and city hotels.
 
-| Column | Description |
-|------|-------------|
-| hotel | Type of hotel (City Hotel or Resort Hotel) |
+| Attribute | Details |
+|---|---|
+| Dataset Source | Kaggle |
+| Hotel Types | Resort Hotel & City Hotel |
+| Initial Records | 119,390 |
+| Initial Columns | 32 |
+| Final Records After Cleaning | 87,212 |
+| Final Columns After Feature Engineering | 35 |
+
+## Data Cleaning & Preparation
+
+The original dataset contained missing values, duplicate reservation records, and fields requiring transformation before analysis.
+
+| Column | Missing Values |
+|---|---|
+| children | 4 |
+| country | 452 |
+| agent | 12,193 |
+| company | 82,137 |
+
+Data preparation included:
+
+- Removed duplicate reservation entries
+- Handled null and missing values
+- Performed feature engineering and transformation
+- Standardized categorical variables
+- Prepared data for exploratory analysis and forecasting workflows
+
+## Key Variables Used in the Analysis
+
+The project focuses on the most important operational and business variables. These are not the only variables in the dataset, but they are the key variables used for the main analysis.
+
+| Variable | Description |
+|---|---|
+| hotel | Type of hotel: City Hotel or Resort Hotel |
 | lead_time | Number of days between booking and arrival |
-| arrival_date_year | Year of arrival |
-| arrival_date_month | Month of arrival |
+| arrival_date_year | Arrival year |
+| arrival_date_month | Arrival month |
 | stays_in_weekend_nights | Number of weekend nights booked |
 | stays_in_week_nights | Number of weekday nights booked |
-| adults, children, babies | Number of guests in the reservation |
-| market_segment | Market segment category |
-| is_canceled | Indicates whether the booking was canceled |
-| adr | Average Daily Rate (room price per night) |
-| customer_type | Type of customer making the reservation |
+| adults / children / babies | Guest composition |
+| market_segment | Booking acquisition segment |
+| is_canceled | Reservation cancellation indicator |
+| adr | Average Daily Rate, or room price per night |
+| customer_type | Customer reservation category |
+
+These variables were selected because they directly support analysis of booking demand, cancellation behavior, occupancy trends, customer segmentation, and revenue performance.
 
 ## Key Analysis Areas
 
-The analysis focuses on several important aspects of hotel operations:
-* Booking trends over time
-* Seasonality of hotel demand
-* Cancellation patterns
-* Customer segmentation
-* Length of stay behavior
-* Pricing patterns (ADR)
+- Booking demand trends over time
+- Seasonal reservation patterns
+- Cancellation behavior analysis
+- Customer segmentation
+- Booking channel performance
+- Length-of-stay behavior
+- ADR pricing analysis
+- Forecasting and demand trend evaluation
+
+## Exploratory Data Analysis
+
+<img width="1022" height="188" alt="DataFrame summary" src="https://github.com/user-attachments/assets/0c6fa01b-7497-432a-965b-2add5ee65410" />
+
+<img width="1307" height="183" alt="Cleaned dataset summary" src="https://github.com/user-attachments/assets/00ea089d-a4e4-4e30-8314-67e149a9418a" />
+
+Exploratory analysis identified several important hospitality trends and operational insights.
+
+| Insight | Business Interpretation |
+|---|---|
+| Cancellation rate reached approximately **27.5%** | High operational and revenue risk |
+| Online Travel Agencies generated the largest booking volume | Third-party channels dominate customer acquisition |
+| Longer lead times showed increased cancellation behavior | Early bookings carry higher uncertainty |
+| Resort hotels achieved higher ADR values than city hotels | Resort customers demonstrated higher revenue potential |
+| Summer months showed elevated booking demand | Strong seasonal demand patterns |
+| ADR distributions displayed significant outliers | Premium customer segments exist within the dataset |
+
+## Forecasting & Predictive Analytics
+
+In addition to Tableau dashboard development, this project includes a forecasting and predictive analytics component.
+
+The forecasting portion explores hotel booking demand behavior, seasonal fluctuations, and reservation trends to support operational planning and demand prediction.
+
+This part of the project helps simulate real-world hospitality forecasting workflows used in revenue management, staffing, inventory planning, and occupancy strategy.
+
+## Tableau Dashboard Components
+
+The Tableau dashboard section focuses on executive-level business intelligence and visual storytelling.
+
+Dashboard topics include:
+
+- Cancellation analytics
+- ADR performance
+- Booking behavior
+- Customer segmentation
+- Operational KPIs
+- Executive-level recommendations
+
+## Visualization Techniques Used
+
+| Visualization | Purpose |
+|---|---|
+| KPI Cards | Executive performance summaries |
+| Dual-Axis Charts | Booking demand compared with operational metrics |
+| Quadrant Analysis | Segment risk and performance analysis |
+| Heatmaps | Seasonal and behavioral pattern analysis |
+| Box & Whisker Plots | ADR distribution analysis |
+| Bubble Charts | Booking volume and revenue relationships |
+| Histograms | Distribution analysis |
+| Bar Charts | Segment comparisons |
+
+## Tools & Technologies
+
+| Tool | Purpose |
+|---|---|
+| Tableau | Dashboard development and visualization |
+| Python | Data cleaning, EDA, and forecasting analysis |
+| Pandas | Data transformation and analysis |
+| NumPy | Numerical analysis |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualization |
+| Jupyter Notebook | Analytical workflow development |
+| CSV / Excel | Data storage and preprocessing |
+
+## Conclusion
+
+Avalon Hotels Analytics Suite demonstrates how hospitality organizations can use predictive analytics, exploratory data analysis, and business intelligence dashboards to improve decision-making.
+
+The analysis identified meaningful relationships between booking demand, customer behavior, cancellation risk, pricing performance, and seasonal trends. High cancellation exposure among OTA booking channels, significant ADR variability across customer segments, and strong seasonal demand fluctuations highlight opportunities for operational optimization.
+
+By combining forecasting workflows with interactive Tableau storytelling, the project delivers executive-level insights that can support pricing strategies, occupancy planning, and customer engagement initiatives.
+
+## Recommendations
+
+| Recommendation | Expected Business Value |
+|---|---|
+| Monitor high-risk booking channels | Reduce cancellation-related revenue loss |
+| Apply targeted cancellation policies for long lead-time reservations | Improve occupancy forecasting |
+| Use seasonal ADR trends to guide pricing strategy | Increase revenue during peak demand periods |
+| Prioritize direct booking incentives | Reduce dependence on third-party channels |
+| Use forecasting outputs for planning | Improve staffing, occupancy, and operational readiness |
+
+## Future Enhancements
+
+| Enhancement | Potential Value |
+|---|---|
+| Machine learning cancellation prediction | Identify high-risk reservations before arrival |
+| Revenue forecasting models | Improve financial planning |
+| Customer lifetime value analysis | Identify high-value guests |
+| Real-time KPI monitoring | Improve operational responsiveness |
+| Geographic demand analysis | Support regional marketing strategies |
+
+## Project Links
+
+| Resource | Link |
+|---|---|
+| GitHub Repository | [Insert GitHub Link Here](#) |
+| Tableau Public Dashboard | [Insert Tableau Dashboard Link Here](#) |
 
 ## Exploratory Data Analysis (EDA)
 <img width="1022" height="188" alt="image" src="https://github.com/user-attachments/assets/0c6fa01b-7497-432a-965b-2add5ee65410" />
@@ -150,21 +291,49 @@ The steeper and wider curve of the Random Forest model shows that it achieves a 
 
 ## Key Insights & Business Implications
 
-1. Cancellation prediction can support revenue management.
-Predicting cancellations allows hotels to anticipate lost bookings and adjust pricing, overbooking strategies, or promotional offers to maintain occupancy levels.
+### 1. Cancellation prediction can support hotel revenue management.
 
-2. Model choice affects operational strategy.
-Logistic Regression identifies a larger share of actual cancellations, which may help hotels proactively manage potential revenue loss. Random Forest, however, provides more reliable predictions when identifying cancellations, reducing false alarms.
+Within the Avalon Hotels Analytics Suite, predicting booking cancellations helps hotels anticipate occupancy loss and better manage operational planning. By identifying reservations with higher cancellation risk, hotels can adjust pricing strategies, promotional campaigns, staffing levels, and room inventory allocation to reduce potential revenue impact.
 
-3. Trade-off between recall and precision.
-If the business goal is to capture as many potential cancellations as possible, Logistic Regression may be preferred. If the goal is to avoid unnecessary interventions, Random Forest may be the better choice.
+### 2. Model selection influences operational decision-making.
 
-4. Predictive analytics can improve operational planning.
-Early detection of cancellation risk allows hotels to adjust staffing, marketing campaigns, and room inventory management.
+The comparison between Logistic Regression and Random Forest models demonstrates how different machine learning approaches can support different business priorities.
+
+- Logistic Regression captures a larger share of actual cancellations, making it useful for identifying broader cancellation risk patterns.
+- Random Forest delivers stronger overall predictive performance and more reliable cancellation classification, reducing unnecessary operational interventions caused by false positives.
+
+### 3. Predictive trade-offs impact business strategy.
+
+The analysis highlights the trade-off between recall and precision:
+
+- If the operational goal is to identify as many potential cancellations as possible, Logistic Regression may be preferred.
+- If the goal is to improve prediction reliability and reduce false alerts, Random Forest provides stronger performance.
+
+This demonstrates how predictive model selection should align with specific hospitality business objectives.
+
+### 4. Predictive analytics can improve operational efficiency.
+
+Early identification of cancellation risk supports more proactive operational planning across:
+- staffing allocation,
+- occupancy management,
+- marketing campaigns,
+- and room availability forecasting.
+
+These predictive insights can help hotels improve customer service responsiveness while optimizing revenue performance.
+
+---
 
 ## Conclusion
-This analysis compared Logistic Regression and Random Forest models to predict hotel booking cancellations. While Logistic Regression serves as a strong baseline and captures a larger share of actual cancellations, Random Forest provides better overall predictive performance, achieving higher accuracy and stronger F1-scores across both classes. These results demonstrate the value of ensemble models when modeling complex booking behavior.
 
-Future work could extend this analysis by exploring additional predictive tasks such as forecasting booking revenue, predicting average daily rate (ADR), or improving cancellation prediction using additional features and more advanced models.
+As part of the Avalon Hotels Analytics Suite, this analysis evaluated Logistic Regression and Random Forest models for predicting hotel booking cancellations.
 
-➡️ Full analysis: [`eda-and-cancellation-analysis.ipynb`](eda-and-cancellation-analysis.ipynb)
+The results show that while Logistic Regression provides a strong baseline model and captures a larger share of actual cancellations, Random Forest achieves stronger overall predictive performance with higher accuracy and improved F1-scores across both booking classes.
+
+The comparison demonstrates the value of predictive analytics and ensemble machine learning techniques when modeling complex hospitality booking behavior and cancellation trends.
+
+Future enhancements to the Avalon Hotels Analytics Suite could include:
+- forecasting hotel booking demand,
+- predicting Average Daily Rate (ADR),
+- expanding customer segmentation analysis,
+- and integrating additional machine learning models to improve cancellation prediction performance.
+➡️ Full analysis: [`[https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/avalon-hotels-analytics-suite.ipynb)`](avalon-hotels-analytics-suite.ipynb)
