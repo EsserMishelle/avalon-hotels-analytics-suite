@@ -78,6 +78,15 @@ The dashboards were designed to support hotel executives, revenue managers, and 
 
 ---
 
+## Predictive Analytics & Forecasting
+This project also includes predictive modeling and forecasting workflows focused on hotel booking cancellations, operational demand behavior, and machine learning analysis.
+
+➡️ [Predictive Analytics & Forecasting](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/predictive-analytics.md)
+
+---
+
+
+
 # Dashboard Overview
 
 # 1. Cancellation Overview Dashboard
@@ -100,6 +109,8 @@ The dashboards were designed to support hotel executives, revenue managers, and 
 | Incentivize direct bookings | Reduce OTA cancellation exposure |
 | Implement dynamic cancellation policies for long lead-time bookings | Reduce lost room inventory |
 | Improve predictive monitoring during peak booking seasons | Optimize staffing and room availability |
+
+
 
 ---
 
