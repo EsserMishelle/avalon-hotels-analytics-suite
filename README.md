@@ -79,13 +79,13 @@ The dashboards were designed to support hotel executives, revenue managers, and 
 ---
 
 ## Predictive Analytics & Forecasting
-This project also includes predictive modeling and forecasting workflows focused on hotel booking cancellations, operational demand behavior, and machine learning analysis.
+
+In addition to Tableau dashboard development, this project includes a forecasting and predictive analytics component.
+The forecasting portion explores hotel booking demand behavior, seasonal fluctuations, and reservation trends to support operational planning and demand prediction.
 
 ➡️ [Predictive Analytics & Forecasting](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/predictive-analytics.md)
 
 ---
-
-
 
 # Dashboard Overview
 
