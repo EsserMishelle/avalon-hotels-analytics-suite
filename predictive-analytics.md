@@ -1,7 +1,6 @@
-# Avalon Hotels Predictive Analytics
-
 <img width="800" height="450" alt="Avalon Hotels Analytics Suite" src="https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/assets/avalon-hotels-analytics-suites-logo.png" />
 
+# Avalon Hotels Predictive Analytics
 ## Overview
 
 Avalon Hotels Analytics Suite is a hospitality analytics and forecasting project designed to explore hotel booking behavior, cancellation trends, customer segmentation, pricing performance, and operational demand patterns across resort and city hotels.
@@ -82,20 +81,6 @@ These variables were selected because they directly support analysis of booking 
 
 <img width="1307" height="183" alt="Cleaned dataset summary" src="https://github.com/user-attachments/assets/00ea089d-a4e4-4e30-8314-67e149a9418a" />
 
-Exploratory analysis identified several important hospitality trends and operational insights.
-
-| Insight | Business Interpretation |
-|---|---|
-| Cancellation rate reached approximately **27.5%** | High operational and revenue risk |
-| Online Travel Agencies generated the largest booking volume | Third-party channels dominate customer acquisition |
-| Longer lead times showed increased cancellation behavior | Early bookings carry higher uncertainty |
-| Resort hotels achieved higher ADR values than city hotels | Resort customers demonstrated higher revenue potential |
-| Summer months showed elevated booking demand | Strong seasonal demand patterns |
-| ADR distributions displayed significant outliers | Premium customer segments exist within the dataset |
-
-## Exploratory Data Analysis (EDA)
-<img width="1022" height="188" alt="image" src="https://github.com/user-attachments/assets/0c6fa01b-7497-432a-965b-2add5ee65410" />
-<img width="1307" height="183" alt="image" src="https://github.com/user-attachments/assets/00ea089d-a4e4-4e30-8314-67e149a9418a" />
 The hotel DataFrame contains 119,390 entries and 32 columns. It has null values in the following fields: children (4), country (452), agent (12,193), and company (82,137). Additionally, there are 31,994 duplicate entries.
 
 After cleaning and transformation, the final dataset has 87212 rows and 35 columns.
