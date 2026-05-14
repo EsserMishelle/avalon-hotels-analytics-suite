@@ -8,13 +8,13 @@ Avalon Hotels Analytics Suite is a hospitality analytics and forecasting project
 
 The project combines exploratory data analysis (EDA), predictive analytics, and interactive business intelligence dashboards to uncover insights that support hotel revenue management, occupancy optimization, and customer strategy development.
 
-Using real-world reservation data, the analysis investigates how booking channels, customer types, lead times, and seasonal demand influence cancellation behavior and Average Daily Rate (ADR) performance.
+Using real-world reservation data, the analysis investigates how booking channels, customer types, lead times, and seasonal demand influence cancellation behavior.
 
 ## Business Problem
 
 The hospitality industry operates in a highly competitive and demand-sensitive environment where hotels must continuously optimize pricing, occupancy, and customer acquisition strategies.
 
-Avalon Hotels Analytics Suite addresses these challenges through data exploration, forecasting analysis, and KPI-driven dashboard reporting to support data-informed business decisions.
+Avalon Hotels Analytics Suite addresses these challenges through data exploration and forecasting analysis to support data-informed business decisions.
 
 ## Project Objectives
 
@@ -22,11 +22,7 @@ Avalon Hotels Analytics Suite addresses these challenges through data exploratio
 |---|---|
 | Analyze hotel booking demand | Identify seasonal and operational booking trends |
 | Investigate cancellation behavior | Reduce revenue loss from cancellations |
-| Evaluate ADR performance | Improve pricing and revenue optimization |
 | Explore customer segmentation | Identify high-value and high-risk customer groups |
-| Analyze booking channels | Understand reservation source performance |
-| Develop forecasting insights | Support operational planning and demand prediction |
-| Create executive dashboards | Enable data-driven hospitality decision-making |
 
 ## Dataset
 
@@ -80,17 +76,6 @@ The project focuses on the most important operational and business variables. Th
 
 These variables were selected because they directly support analysis of booking demand, cancellation behavior, occupancy trends, customer segmentation, and revenue performance.
 
-## Key Analysis Areas
-
-- Booking demand trends over time
-- Seasonal reservation patterns
-- Cancellation behavior analysis
-- Customer segmentation
-- Booking channel performance
-- Length-of-stay behavior
-- ADR pricing analysis
-- Forecasting and demand trend evaluation
-
 ## Exploratory Data Analysis
 
 <img width="1022" height="188" alt="DataFrame summary" src="https://github.com/user-attachments/assets/0c6fa01b-7497-432a-965b-2add5ee65410" />
@@ -107,88 +92,6 @@ Exploratory analysis identified several important hospitality trends and operati
 | Resort hotels achieved higher ADR values than city hotels | Resort customers demonstrated higher revenue potential |
 | Summer months showed elevated booking demand | Strong seasonal demand patterns |
 | ADR distributions displayed significant outliers | Premium customer segments exist within the dataset |
-
-## Forecasting & Predictive Analytics
-
-In addition to Tableau dashboard development, this project includes a forecasting and predictive analytics component.
-
-The forecasting portion explores hotel booking demand behavior, seasonal fluctuations, and reservation trends to support operational planning and demand prediction.
-
-This part of the project helps simulate real-world hospitality forecasting workflows used in revenue management, staffing, inventory planning, and occupancy strategy.
-
-## Tableau Dashboard Components
-
-The Tableau dashboard section focuses on executive-level business intelligence and visual storytelling.
-
-Dashboard topics include:
-
-- Cancellation analytics
-- ADR performance
-- Booking behavior
-- Customer segmentation
-- Operational KPIs
-- Executive-level recommendations
-
-## Visualization Techniques Used
-
-| Visualization | Purpose |
-|---|---|
-| KPI Cards | Executive performance summaries |
-| Dual-Axis Charts | Booking demand compared with operational metrics |
-| Quadrant Analysis | Segment risk and performance analysis |
-| Heatmaps | Seasonal and behavioral pattern analysis |
-| Box & Whisker Plots | ADR distribution analysis |
-| Bubble Charts | Booking volume and revenue relationships |
-| Histograms | Distribution analysis |
-| Bar Charts | Segment comparisons |
-
-## Tools & Technologies
-
-| Tool | Purpose |
-|---|---|
-| Tableau | Dashboard development and visualization |
-| Python | Data cleaning, EDA, and forecasting analysis |
-| Pandas | Data transformation and analysis |
-| NumPy | Numerical analysis |
-| Matplotlib | Data visualization |
-| Seaborn | Statistical visualization |
-| Jupyter Notebook | Analytical workflow development |
-| CSV / Excel | Data storage and preprocessing |
-
-## Conclusion
-
-Avalon Hotels Analytics Suite demonstrates how hospitality organizations can use predictive analytics, exploratory data analysis, and business intelligence dashboards to improve decision-making.
-
-The analysis identified meaningful relationships between booking demand, customer behavior, cancellation risk, pricing performance, and seasonal trends. High cancellation exposure among OTA booking channels, significant ADR variability across customer segments, and strong seasonal demand fluctuations highlight opportunities for operational optimization.
-
-By combining forecasting workflows with interactive Tableau storytelling, the project delivers executive-level insights that can support pricing strategies, occupancy planning, and customer engagement initiatives.
-
-## Recommendations
-
-| Recommendation | Expected Business Value |
-|---|---|
-| Monitor high-risk booking channels | Reduce cancellation-related revenue loss |
-| Apply targeted cancellation policies for long lead-time reservations | Improve occupancy forecasting |
-| Use seasonal ADR trends to guide pricing strategy | Increase revenue during peak demand periods |
-| Prioritize direct booking incentives | Reduce dependence on third-party channels |
-| Use forecasting outputs for planning | Improve staffing, occupancy, and operational readiness |
-
-## Future Enhancements
-
-| Enhancement | Potential Value |
-|---|---|
-| Machine learning cancellation prediction | Identify high-risk reservations before arrival |
-| Revenue forecasting models | Improve financial planning |
-| Customer lifetime value analysis | Identify high-value guests |
-| Real-time KPI monitoring | Improve operational responsiveness |
-| Geographic demand analysis | Support regional marketing strategies |
-
-## Project Links
-
-| Resource | Link |
-|---|---|
-| GitHub Repository | [Insert GitHub Link Here](#) |
-| Tableau Public Dashboard | [Insert Tableau Dashboard Link Here](#) |
 
 ## Exploratory Data Analysis (EDA)
 <img width="1022" height="188" alt="image" src="https://github.com/user-attachments/assets/0c6fa01b-7497-432a-965b-2add5ee65410" />
