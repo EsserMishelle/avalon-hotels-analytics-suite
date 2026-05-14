@@ -51,7 +51,7 @@ The dashboards were designed to support hotel executives, revenue managers, and 
 |---|---|
 | Dataset Type | Hotel Booking Demand Dataset |
 | Hotel Types | City Hotel & Resort Hotel |
-| Time Period | ___ to ___ |
+| Time Period | July 2015 to Aug 2017 |
 | Records | Approximately ___ hotel bookings |
 | Features | Reservation details, customer type, ADR, lead time, cancellations, deposit type, booking channel, stay duration |
 | Data Source | Kaggle / Public Hospitality Dataset |
