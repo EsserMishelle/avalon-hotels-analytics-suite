@@ -336,4 +336,5 @@ Future enhancements to the Avalon Hotels Analytics Suite could include:
 - predicting Average Daily Rate (ADR),
 - expanding customer segmentation analysis,
 - and integrating additional machine learning models to improve cancellation prediction performance.
-➡️ Full analysis: [`[https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/avalon-hotels-analytics-suite.ipynb)`](avalon-hotels-analytics-suite.ipynb)
+
+➡️ Full Analysis: [Avalon Hotels Analytics Suite](avalon-hotels-analytics-suite.ipynb)
