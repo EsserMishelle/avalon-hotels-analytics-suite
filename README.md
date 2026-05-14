@@ -31,7 +31,7 @@ The Avalon Hotels Booking Analytics project was conducted to meet the following 
 ---
 
 ## Key Metrics Measured
-
+These key metrics were utilized to evaluate relationships between booking behavior, customer characteristics, operational trends, cancellation patterns, and ADR performance.
 | Metric | Description |
 |---|---|
 | Cancellation Rate | Percentage of bookings canceled before arrival |
@@ -40,41 +40,17 @@ The Avalon Hotels Booking Analytics project was conducted to meet the following 
 | ADR (Average Daily Rate) | Average revenue earned per occupied room |
 | Booking Lead Time | Time between reservation and arrival |
 | Market Segment Performance | Booking and cancellation trends across customer groups |
-| Hotel Type Performance | Comparison between City and Resort hotels |
+| Customer Type Analysis | Booking and cancellation behavior across customer categories |
+| Guest Composition | Analysis of solo travelers, couples, families, and group bookings |
+| Hotel Typee | Comparison between City and Resort hotels |
 | Stay Length | ADR and booking behavior by duration of stay |
-
 ---
 
-# Dataset Overview
+## Dataset
 
-| Attribute | Details |
-|---|---|
-| Dataset Type | Hotel Booking Demand Dataset |
-| Hotel Types | City Hotel & Resort Hotel |
-| Time Period | July 2015 to Aug 2017 |
-| Records | Approximately ___ hotel bookings |
-| Features | Reservation details, customer type, ADR, lead time, cancellations, deposit type, booking channel, stay duration |
-| Data Source | Kaggle / Public Hospitality Dataset |
+The Avalon Hotels Analytics Suite uses the Hotel Booking Demand Dataset containing reservation information for both resort hotels and city hotels between July 2015 and August 2017. The dataset includes approximately 119K hotel booking records and features related to reservation details, customer segmentation, Average Daily Rate (ADR), booking lead time, cancellation behavior, booking channels, deposit policies, and stay duration. A complete data dictionary containing detailed field definitions and variable descriptions is attached below.
 
----
-
-# Data Dictionary
-
-| Field | Description |
-|---|---|
-| is_canceled | Indicates whether the booking was canceled |
-| adr | Average Daily Rate charged for the booking |
-| hotel | Hotel category (City or Resort) |
-| market_segment | Booking acquisition segment |
-| lead_time | Days between booking and arrival |
-| customer_type | Type of customer reservation |
-| arrival_date_month | Arrival month |
-| arrival_date_week_number | Week of arrival |
-| stays_in_week_nights | Number of weekday nights |
-| stays_in_weekend_nights | Number of weekend nights |
-| deposit_type | Deposit policy selected |
-| adults / children / babies | Number of guests |
-| reservation_status | Final reservation outcome |
+[Avalon Hotels Data Dictionary](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/assets/avalon_hotels_data_dictionary.xlsx)
 
 ---
 
@@ -83,7 +59,7 @@ The Avalon Hotels Booking Analytics project was conducted to meet the following 
 In addition to Tableau dashboard development, this project includes a forecasting and predictive analytics component.
 The forecasting portion explores hotel booking demand behavior, seasonal fluctuations, and reservation trends to support operational planning and demand prediction.
 
-➡️ [Predictive Analytics & Forecasting](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/predictive-analytics.md)
+[Predictive Analytics & Forecasting](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/predictive-analytics.md)
 
 ---
 
