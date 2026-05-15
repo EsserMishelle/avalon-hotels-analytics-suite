@@ -99,14 +99,14 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 | Implement dynamic cancellation policies for long lead-time bookings | Reduce lost room inventory |
 | Improve predictive monitoring during peak booking seasons | Optimize staffing and room availability |
 
-
+<br>
 
 ---
 
 <img width="1291" height="662" alt="image" src="https://github.com/user-attachments/assets/e4ebfb7a-c229-4df8-8cf8-8893af204905" />
 <img width="1282" height="331" alt="image" src="https://github.com/user-attachments/assets/24aea432-cbe3-413b-9a89-b684933ecad1" />
 
-## Key Findings
+#### Key Findings
 
 - Third-party or Online Travel Agency (OTA) bookings represented the highest-risk market segment, reaching approximately **35% cancellation** while also generating the largest booking volume.
 - Group bookings maintained relatively lower cancellation pattern despite moderate booking volume, indicating stronger reservation stability compared to OTA channels.
@@ -116,9 +116,8 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 - Customers with higher numbers of special requests exhibited lower cancellation behavior, suggesting stronger booking commitment and customer intent.
 - Guests with previous cancellation history showed elevated future cancellation risk, with cancellation rates peaking near **80%** among customers with one prior cancellation.
 
----
 
-## Business Insights
+#### Business Insights
 
 - OTA channels contribute substantial booking demand but simultaneously create elevated operational uncertainty and forecasting risk.
 - Long lead-time reservations appear less reliable and may require additional monitoring, deposit requirements, or dynamic cancellation policies.
@@ -126,9 +125,8 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 - Historical cancellation behavior serves as a strong indicator of future cancellation risk, suggesting opportunities for predictive customer risk scoring.
 - Couples and family travelers represent important customer segments that may support targeted loyalty, retention, and bundled travel strategies.
 
----
 
-## Strategic Recommendations
+#### Strategic Recommendations
 
 | Recommendation | Expected Outcome |
 |---|---|
@@ -139,7 +137,11 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 | Prioritize customer engagement features such as special request personalization | Strengthen customer commitment and reduce cancellations |
 | Develop tailored marketing packages for couples and family visitors | Improve customer retention and revenue opportunities |
 
+<br>
 ---
+<img width="1302" height="1007" alt="image" src="https://github.com/user-attachments/assets/b1f3745d-98e9-47a4-9b37-d322be8e28a5" />
+
+
 
 ## 2. ADR Performance Dashboard
 
