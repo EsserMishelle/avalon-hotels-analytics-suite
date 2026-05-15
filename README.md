@@ -63,9 +63,9 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 ---
 
-## Dashboard Overview
+## Cancellation Analysis
 
-### 1. Cancellation Overview Dashboard
+### 1. Cancellation Overview 
 
 <img width="1286" height="576" alt="image" src="https://github.com/user-attachments/assets/c4924408-6dc9-4889-84f8-a4534a066f7e" />
 <img width="1285" height="416" alt="image" src="https://github.com/user-attachments/assets/54eb41aa-2e9e-490c-a62c-2251d2fdc095" />
@@ -102,6 +102,7 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 <br>
 
 ---
+### 2. Cancellation Risk Drivers
 
 <img width="1291" height="662" alt="image" src="https://github.com/user-attachments/assets/e4ebfb7a-c229-4df8-8cf8-8893af204905" />
 <img width="1282" height="331" alt="image" src="https://github.com/user-attachments/assets/24aea432-cbe3-413b-9a89-b684933ecad1" />
@@ -138,33 +139,85 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 | Develop tailored marketing packages for couples and family visitors | Improve customer retention and revenue opportunities |
 
 <br>
+
 ---
-<img width="1302" height="1007" alt="image" src="https://github.com/user-attachments/assets/b1f3745d-98e9-47a4-9b37-d322be8e28a5" />
+## Average Daily Rate (ADR) Analysis
+### 1. ADR Overview
+
+<img width="1302" height="1000" alt="image" src="https://github.com/user-attachments/assets/147713e5-198e-4603-b3c5-9ee7823112f8" />
+
+#### Key Findings
+
+- Avalon Hotels generated approximately **87.2k** total bookings and **$23.0M in total revenue** while maintaining an average ADR of approximately **$106.48**.
+- ADR performance demonstrated strong seasonality, with pricing peaking during the summer months, particularly in **July and August**, where ADR exceeded approximately **$140–$150**.
+- ADR trends declined noticeably during the late fall and winter months reaching approximately **$70-$80**, indicating lower seasonal demand and reduced pricing power.
+- Customers with **No Deposit reservations** generated the highest ADR values, while refundable bookings maintained lower average pricing performance.
+- Transient traverlers produced the highest ADR among customer types, outperforming contract, group, and transient-party bookings.
+- Friday and Saturday generated the strongest ADR performance across weekdays, suggesting increased weekend demand and higher customer willingness to pay.
+- ADR distribution analysis revealed significant variability across market segments, with **Online Travel Agencies (OTA)** and **Direct bookings** containing the widest pricing ranges and highest-value reservation outliers.
+- Market segments such as Complementary and Corporate bookings maintained lower ADR distributions and narrower pricing variability compared to OTA and Direct channels.
 
 
+#### Business Insights
 
-## 2. ADR Performance Dashboard
+- Seasonal demand significantly influences hotel pricing performance, with summer travel periods creating stronger revenue optimization opportunities.
+- Lower ADR performance during November may be associated with reduced seasonal travel demand during the late fall period.
+- Weekend travel demand appears substantially stronger than midweek demand, supporting dynamic weekend pricing strategies.
+- Transient travelers and OTA channels represent high-revenue customer segments but may also require more active pricing and careful inventory management.
+- Large ADR variability within OTA and Direct booking channels suggests opportunities for premium segmentation, upselling, and targeted pricing optimization.
+- Lower ADR values among contract and group bookings may reflect negotiated pricing structures or long-term occupancy agreements that prioritize occupancy stability over premium pricing.
 
-#### Key Insights
-
-| Insight | Business Impact |
-|---|---|
-| Average ADR reached approximately **$106.48** | Strong pricing performance overall |
-| ADR peaked during summer months | Seasonal demand drives pricing opportunities |
-| Resort hotels consistently achieved higher ADR values | Resort customers demonstrate higher spending behavior |
-| No-deposit reservations generated the highest ADR values | Flexible booking customers may provide higher revenue potential |
-| ADR distribution varied widely across market segments | Customer segmentation strongly influences pricing performance |
 
 #### Strategic Recommendations
 
 | Recommendation | Expected Outcome |
 |---|---|
-| Increase premium pricing during peak seasonal periods | Maximize high-demand revenue |
-| Develop loyalty incentives for high-value customer groups | Improve repeat customer retention |
-| Expand upsell opportunities in resort properties | Increase guest spending per stay |
-| Adjust pricing dynamically by booking segment and seasonality | Improve ADR optimization |
+| Increase dynamic pricing during peak summer periods | Maximize seasonal revenue opportunities |
+| Target promotions during low-demand seasons | Increase revenue and occupancy during slower travel periods |
+| Apply premium weekend pricing strategies | Improve ADR performance during high-demand travel periods |
+| Expand upsell and premium room offerings within OTA and Direct channels | Increase high-value booking revenue |
+| Increase promotion to transient travelers | Reduce last-minute occupancy and increase revenue |
+| Develop targeted retention campaigns for transient travelers | Improve customer lifetime value and repeat bookings |
+| Optimize pricing strategies during low-demand months | Improve occupancy stability and revenue consistency |
+| Segment pricing strategies by customer type and booking channel | Improve revenue optimization across customer groups |
+| Monitor ADR outliers and premium booking behavior | Identify luxury customer opportunities and pricing trends |
+
 
 ---
+
+### 2. ADR Performance Drivers
+
+#### Key Findings
+
+- Avalon Hotels generated approximately **87.2K total bookings** and **$23.0M in total revenue**, while maintaining an average ADR of approximately **$106.48**.
+- Online Travel Agency (OTA) bookings generated the highest booking volume while also maintaining one of the highest ADR values among booking segments.
+- Direct bookings achieved premium ADR performance despite lower booking volume, positioning them as high-value niche customer segments.
+- Corporate and complementary bookings maintained lower ADR values compared to OTA and Direct channels.
+- ADR performance was strongest for stays between **3–10 nights**, while very long stays demonstrated lower average pricing performance.
+- Short and medium booking lead times produced the highest ADR values, while very long lead-time reservations generated lower ADR performance.
+- City Hotels demonstrated wider ADR variability and a broader pricing distribution compared to Resort Hotels.
+- Couples represented the largest guest composition segment, significantly exceeding solo travelers and family bookings in reservation volume.
+- Non-deposit reservations generated the highest ADR values, while refundable bookings maintained the lowest average pricing performance.
+
+#### Business Insights
+
+- OTA and Direct booking channels represent the strongest revenue-driving customer segments due to their combination of higher ADR performance and substantial booking activity.
+- Premium ADR performance among Direct bookings suggests opportunities to expand loyalty, membership, and direct marketing initiatives.
+- Lower ADR among long lead-time reservations may indicate early-booking discounts or lower pricing flexibility over extended planning periods.
+- Wider ADR variability within City Hotels suggests greater exposure to fluctuating pricing strategies, customer demand shifts, and dynamic market conditions.
+- Guest composition trends indicate that couples and family travelers represent important customer segments for pricing optimization and promotional targeting.
+
+#### Strategic Recommendations
+
+| Recommendation | Expected Outcome |
+|---|---|
+| Expand direct booking incentives and loyalty programs | Increase high-value direct reservation volume |
+| Apply dynamic pricing strategies during high-demand booking periods | Improve ADR optimization and pricing flexibility |
+| Increase premium upsell opportunities within OTA channels | Maximize revenue potential from high-volume booking segments |
+| Develop targeted promotions for long-stay reservations | Improve ADR performance across extended bookings |
+| Monitor pricing variability across City Hotels | Improve pricing consistency and operational forecasting |
+| Create bundled packages for couples and family travelers | Increase customer retention and booking value |
+| Optimize seasonal pricing strategies during lower-demand periods | Improve occupancy and stabilize ADR performance |
 
 ## 3. Booking Behavior & Customer Insights Dashboard
 
