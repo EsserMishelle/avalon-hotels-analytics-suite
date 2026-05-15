@@ -115,7 +115,7 @@ In addition to Tableau dashboard development, this project includes a predictive
 
 #### Business Insights
 
-- Overall cancellation is more than 1 of 4 bookings, which could cause significant operational and revenue risk.
+- Overall cancellation rates exceeded 1 in 4 bookings, representing a significant source of operational uncertainty and potential revenue loss.
 - Booking demand peaked during summer months which provides seasonal staffing and pricing opportunities
 - Third-party or Online Travel Agency (OTA) channels generate substantial booking volume but also contribute disproportionately to operational uncertainty and potential revenue loss due to elevated cancellation behavior.
 - Long lead-time reservations create increased forecasting risk, particularly within City Hotels where cancellation exposure is significantly higher.
@@ -255,37 +255,21 @@ In addition to Tableau dashboard development, this project includes a predictive
 | Optimize seasonal pricing strategies during lower-demand periods | Improve occupancy and stabilize ADR performance |
 
 ---
-
 ## Conclusion
 
-The Avalon Hotels Booking Analytics project demonstrates how hospitality organizations can leverage data visualization and operational analytics to improve booking management, pricing strategies, and customer segmentation decisions.
+The Avalon Hotels Booking Analytics project demonstrates how hospitality organizations can leverage data visualization and operational intelligence to improve booking management, pricing optimization, and customer segmentation strategies.
 
-The analysis identified several high-impact operational patterns, including elevated cancellation behavior among OTA channels, strong seasonal ADR fluctuations, and substantial differences in customer value across booking types and hotel categories.
+The project identified several high-impact operational patterns, including elevated cancellation behavior among OTA channels, strong seasonal ADR fluctuations, and significant differences in customer value across booking segments and hotel categories.
 
-These findings highlight opportunities to improve occupancy forecasting, reduce cancellation-related revenue loss, and optimize dynamic pricing strategies.
+These findings reveal opportunities to improve occupancy forecasting, reduce cancellation-related revenue loss, strengthen pricing strategies, and better align operational planning with customer demand behavior.
 
-By combining KPI dashboards, customer behavior analysis, and interactive filtering capabilities, the project provides executives and revenue management teams with actionable insights to support data-driven decision-making in the hospitality industry.
-
----
-
-# Future Enhancements
-
-| Enhancement | Potential Value |
-|---|---|
-| Predictive cancellation modeling | Forecast high-risk reservations |
-| Revenue forecasting integration | Improve financial planning |
-| Customer lifetime value analysis | Identify high-value guests |
-| Real-time booking monitoring | Enhance operational responsiveness |
-| Geographic demand analysis | Support regional marketing strategies |
+Through the integration of KPI dashboards, customer behavior analysis, forecasting insights, and interactive business intelligence reporting, the project provides hotel executives and revenue management teams with actionable insights that support more informed, data-driven decision-making.
 
 ---
 
-# Project Links
+## Strategic Outlook
 
-| Resource | Link |
-|---|---|
-| GitHub Repository | Insert GitHub Link Here |
-| Tableau Public Dashboard | Insert Tableau Link Here |
+While the dataset is limited to hotel reservation data from 2015 to 2017, the project demonstrates strong opportunities for future analytical expansion. With additional operational, customer, and real-time booking data, future enhancements could include advanced revenue forecasting, customer lifetime value modeling, dynamic pricing optimization, and real-time occupancy prediction to further strengthen hospitality revenue management and operational decision-making capabilities.
 
----
+
 
