@@ -48,11 +48,36 @@ These key metrics were utilized to evaluate relationships between booking behavi
 
 ## Dataset
 
-The Avalon Hotels Analytics Suite uses the Hotel Booking Demand Dataset from Kaggle, containing reservation information for both resort hotels and city hotels between July 2015 and August 2017. The dataset includes approximately 119K hotel booking records and features related to reservation details, customer segmentation, Average Daily Rate (ADR), booking lead time, cancellation behavior, booking channels, deposit policies, and stay duration. A complete data dictionary containing detailed field definitions and variable descriptions is attached below.
+The Avalon Hotels Analytics Suite contains reservation information for both resort hotels and city hotels between July 2015 and August 2017. This Kaggke Hotel Booking Demand Dataset includes hotel booking records and features related to reservation details, customer segmentation, Average Daily Rate (ADR), booking lead time, cancellation behavior, booking channels, deposit policies, and stay duration.
+
+## Exploratory Data Analysis
+
+Exploratory analysis was conducted to better understand reservation behavior, identify data quality issues, and evaluate patterns associated with hotel booking cancellations.
+
+The analysis revealed:
+
+-  **119,390 reservation records** across **32 variables**, 
+- missing values across several operational fields: children (4), country (452), agent (12,193) and company (82,137). 
+- approximately **31,994 duplicate reservation entries**,
+- and notable variation in booking behavior across segments and hotel types, covering booking details, customer information, stay duration, pricing metrics, booking channels, and cancellation indicators.
+
+### Data Cleaning and Preparation
+
+- Removed duplicate reservation records
+- Handled missing and null values
+- Performed feature engineering and data transformation
+- Standardized selected categorical variables
+- Prepared data for exploratory analysis and predictive modeling workflows
+
+After data cleaning, duplicate removal, and feature transformation, the final analytical dataset contained **87,213 records** and **32 columns**.
+
+The original dataset, the cleaned dataset, and the complete data dictionary containing detailed field definitions and variable descriptions are attached below.
+
 
 [Avalon Hotels Data Dictionary](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/assets/avalon_hotels_data_dictionary.xlsx)
 
 ---
+## Tableau Visualization 
 
 ## Predictive Analytics & Forecasting
 
@@ -60,6 +85,7 @@ In addition to Tableau dashboard development, this project includes a forecastin
 The forecasting portion explores hotel booking demand behavior, seasonal fluctuations, and reservation trends to support operational planning and demand prediction.
 
 [Predictive Analytics & Forecasting](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/predictive-analytics.md)
+
 
 ---
 
@@ -142,6 +168,7 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 ---
 ## Average Daily Rate (ADR) Analysis
+
 ### 1. ADR Overview
 
 <img width="1302" height="1000" alt="image" src="https://github.com/user-attachments/assets/147713e5-198e-4603-b3c5-9ee7823112f8" />
@@ -186,6 +213,7 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 ---
 
 ### 2. ADR Performance Drivers
+<img width="1300" height="1000" alt="image" src="https://github.com/user-attachments/assets/27bfd40d-a80d-405f-a5cb-541b69810f7c" />
 
 #### Key Findings
 
@@ -193,8 +221,8 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 - Online Travel Agency (OTA) bookings generated the highest booking volume while also maintaining one of the highest ADR values among booking segments.
 - Direct bookings achieved premium ADR performance despite lower booking volume, positioning them as high-value niche customer segments.
 - Corporate and complementary bookings maintained lower ADR values compared to OTA and Direct channels.
-- ADR performance was strongest for stays between **3–10 nights**, while very long stays demonstrated lower average pricing performance.
-- Short and medium booking lead times produced the highest ADR values, while very long lead-time reservations generated lower ADR performance.
+- ADR performance was strongest for stays between **6–10 nights** for approximately **$113 ADR**, while very long stays demonstrated lower average pricing performance.
+- Short and medium booking lead times produced the highest ADR values **($116 and $112)**, while very long lead-time reservations generated lower ADR performance.
 - City Hotels demonstrated wider ADR variability and a broader pricing distribution compared to Resort Hotels.
 - Couples represented the largest guest composition segment, significantly exceeding solo travelers and family bookings in reservation volume.
 - Non-deposit reservations generated the highest ADR values, while refundable bookings maintained the lowest average pricing performance.
@@ -211,60 +239,13 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 | Recommendation | Expected Outcome |
 |---|---|
-| Expand direct booking incentives and loyalty programs | Increase high-value direct reservation volume |
+| Expand direct booking incentives and loyalty programs | Increase high-value direct reservation volume and reduce OTA dependency |
 | Apply dynamic pricing strategies during high-demand booking periods | Improve ADR optimization and pricing flexibility |
 | Increase premium upsell opportunities within OTA channels | Maximize revenue potential from high-volume booking segments |
 | Develop targeted promotions for long-stay reservations | Improve ADR performance across extended bookings |
 | Monitor pricing variability across City Hotels | Improve pricing consistency and operational forecasting |
 | Create bundled packages for couples and family travelers | Increase customer retention and booking value |
 | Optimize seasonal pricing strategies during lower-demand periods | Improve occupancy and stabilize ADR performance |
-
-## 3. Booking Behavior & Customer Insights Dashboard
-
-#### Key Insights
-
-| Insight | Business Impact |
-|---|---|
-| Online bookings generated the largest booking volume | Digital channels dominate customer acquisition |
-| Couples represented the largest booking group size | Marketing strategies should prioritize couple travel packages |
-| Short and medium stay durations produced stronger ADR values | Shorter stays may provide higher room turnover efficiency |
-| Very long lead-time bookings showed weaker ADR performance | Long-term reservations may reduce pricing flexibility |
-| ADR distribution displayed significant outliers across booking channels | High-spending customer segments exist within specific channels |
-
-#### Strategic Recommendations
-
-| Recommendation | Expected Outcome |
-|---|---|
-| Prioritize digital marketing campaigns | Improve booking conversion rates |
-| Create targeted packages for couples and family travelers | Increase customer engagement |
-| Optimize stay-length pricing strategies | Improve room profitability |
-| Monitor outlier spending behavior for premium service opportunities | Increase luxury revenue streams |
-
----
-
-## Visualization Techniques Used
-
-| Visualization | Purpose |
-|---|---|
-| KPI Cards | Executive summary metrics |
-| Dual-Axis Trend Charts | Booking demand vs cancellation trends |
-| Sankey Diagram | Customer segment cancellation flow |
-| Box & Whisker Plot | ADR distribution analysis |
-| Bubble Chart | Booking volume vs ADR relationship |
-| Histograms | ADR distribution comparison |
-| Bar Charts | Segment and seasonal comparisons |
-| Dot Plots | Weekly ADR analysis |
-
----
-
-## Tools & Technologies
-
-| Tool | Purpose |
-|---|---|
-| Tableau | Dashboard development and visualization |
-| Excel / CSV | Data preparation |
-| SQL | Data exploration and analysis |
-| Python (optional) | Exploratory analysis and preprocessing |
 
 ---
 
@@ -301,20 +282,3 @@ By combining KPI dashboards, customer behavior analysis, and interactive filteri
 
 ---
 
-# Dashboard Screenshots
-
-## Cancellation Analytics Dashboard
-
-![Cancellation Dashboard](assets/cancellation_dashboard.png)
-
----
-
-## ADR Performance Dashboard
-
-![ADR Dashboard](assets/adr_dashboard.png)
-
----
-
-## Booking Behavior Dashboard
-
-![Booking Behavior Dashboard](assets/booking_behavior_dashboard.png)
