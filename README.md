@@ -92,10 +92,7 @@ The visual analysis and dashboard development were conducted in Tableau to suppo
 
 In addition to Tableau dashboard development, this project includes a predictive analytics and forecasting component focused on hotel booking demand behavior, seasonal fluctuations, and reservation cancellation prediction.
 
-The forecasting analysis supports operational planning, occupancy forecasting, and predictive modeling workflows within the hospitality industry.
-
 [Predictive Analytics & Forecasting](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/predictive-analytics.md)
-
 
 ---
 
