@@ -44,24 +44,25 @@ These key metrics were utilized to evaluate relationships between booking behavi
 | Guest Composition | Analysis of solo travelers, couples, families, and group bookings |
 | Hotel Type | Comparison between City and Resort hotels |
 | Stay Length | ADR and booking behavior by duration of stay |
+
 ---
 
 ## Dataset
 
-The Avalon Hotels Analytics Suite contains reservation information for both resort hotels and city hotels between July 2015 and August 2017. This Kaggle Hotel Booking Demand Dataset includes hotel booking records and features related to reservation details, customer segmentation, Average Daily Rate (ADR), booking lead time, cancellation behavior, booking channels, deposit policies, and stay duration.
+The Avalon Hotels Analytics Suite contains reservation information for both resort hotels and city hotels between July 2015 and August 2017. The Hotel Booking Demand Dataset includes hotel reservation records and operational features related to customer segmentation, Average Daily Rate (ADR), booking lead time, cancellation behavior, booking channels, deposit policies, and stay duration.
 
 ## Exploratory Data Analysis
 
-Exploratory analysis was conducted to better understand reservation behavior, identify data quality issues, and evaluate patterns associated with hotel booking cancellations.
+Exploratory analysis was conducted to better understand reservation behavior, identify data quality issues, and evaluate patterns associated with hotel booking cancellations and pricing performance.
 
 The analysis revealed:
 
--  **119,390 reservation records** across **32 variables**, 
-- missing values across several operational fields: children (4), country (452), agent (12,193) and company (82,137). 
-- approximately **31,994 duplicate reservation entries**,
-- and notable variation in booking behavior across segments and hotel types, covering booking details, customer information, stay duration, pricing metrics, booking channels, and cancellation indicators.
+- **119,390 reservation records** across **32 variables**
+- Missing values across several operational fields, including children (4), country (452), agent (12,193), and company (82,137)
+- Approximately **31,994 duplicate reservation entries**
+- Significant variation in booking behavior across hotel types, customer segments, pricing patterns, and cancellation activity
 
-### Data Cleaning and Preparation
+### Data Cleaning & Preparation
 
 - Removed duplicate reservation records
 - Handled missing and null values
@@ -69,24 +70,29 @@ The analysis revealed:
 - Standardized selected categorical variables
 - Prepared data for exploratory analysis and predictive modeling workflows
 
-After data cleaning, duplicate removal, and feature transformation, the final analytical dataset contained **87,213 records** and **32 columns**.
+After preprocessing and transformation, the final analytical dataset contained approximately **87,213 records** across **32 columns**.
 
-The original dataset, the cleaned dataset, and the complete data dictionary containing detailed field definitions and variable descriptions are attached below.
+The original dataset, cleaned dataset, and complete data dictionary containing detailed field definitions and variable descriptions are attached below.
 
-[Original Dataset](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/hotels.csv)
-[Cleaned Dataset](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/clean_hotels.csv)
+[Original Dataset](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/hotels.csv)  
+[Cleaned Dataset](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/clean_hotels.csv)  
 [Avalon Hotels Data Dictionary](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/assets/avalon_hotels_data_dictionary.xlsx)
 
 ---
-## Tableau Visualization 
 
-The visual analysis was conducted in Tableau, which is attached here.
-[Avalon Hotel Analytics Suites](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/avalon-hotels-analytics-suites.twbx)
+## Tableau Visualization
+
+The visual analysis and dashboard development were conducted in Tableau to support operational monitoring, pricing analysis, customer segmentation, and cancellation trend evaluation.
+
+[Avalon Hotels Analytics Suite Tableau Workbook](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/avalon-hotels-analytics-suites.twbx)
+
+---
 
 ## Predictive Analytics & Forecasting
 
-In addition to Tableau dashboard development, this project includes a forecasting and predictive analytics component.
-The forecasting portion explores hotel booking demand behavior, seasonal fluctuations, and reservation trends to support operational planning and demand prediction.
+In addition to Tableau dashboard development, this project includes a predictive analytics and forecasting component focused on hotel booking demand behavior, seasonal fluctuations, and reservation cancellation prediction.
+
+The forecasting analysis supports operational planning, occupancy forecasting, and predictive modeling workflows within the hospitality industry.
 
 [Predictive Analytics & Forecasting](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/predictive-analytics.md)
 
