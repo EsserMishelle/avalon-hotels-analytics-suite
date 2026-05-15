@@ -67,15 +67,31 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 ### 1. Cancellation Overview Dashboard
 
-#### Key Insights
 
-| Insight | Business Impact |
-|---|---|
-| Overall cancellation rate reached **27.51%** | Significant operational and revenue risk |
-| Booking demand peaked during summer months | Seasonal staffing and pricing opportunities |
-| Online and Offline TA/TO segments showed elevated cancellations | Third-party channels contribute higher uncertainty |
-| Longer booking lead times correlated with higher cancellation rates | Early reservations carry greater cancellation risk |
-| Tuesday and Wednesday showed the highest negative cancellation variance | Midweek booking behavior may require closer monitoring |
+<img width="1286" height="576" alt="image" src="https://github.com/user-attachments/assets/c4924408-6dc9-4889-84f8-a4534a066f7e" />
+
+<img width="1285" height="416" alt="image" src="https://github.com/user-attachments/assets/54eb41aa-2e9e-490c-a62c-2251d2fdc095" />
+
+
+#### Key Findings 
+
+- Overall cancellation rate reached **27.51%**, or 24k of 87.2k total bookings.
+- The highest cancellation rate was observed among **Transient City Hotel customers**, while **Group Resort Hotel bookings** demonstrated the lowest cancellation behavior at approximately **6%**.
+- Cancellation behavior varied by weekday, with **Friday showing the highest cancellation activity** and **Tuesday demonstrating the lowest cancellation rate**.
+- Booking lead time strongly influenced cancellation behavior. Long lead-time reservations for **City Hotels reached approximately 52% cancellation**, while comparable Resort Hotel bookings remained significantly lower at approximately **6%**.
+- Seasonal booking trends revealed that **August experienced the highest booking demand and cancellation activity**, reaching approximately **11K bookings with a 32% cancellation rate**.
+- **November recorded the lowest booking volume at approximately 5K reservations** and maintained one of the lowest cancellation rates at approximately **21%**.
+- Market segment analysis showed that **Corporate** and **Complementary** bookings maintained relatively low cancellation rates near **12%**, while **Online Travel Agency (OTA)** bookings reached approximately **35% cancellation**, representing the highest-risk booking segment.
+
+#### Business Insights
+
+- Overall cancellation is more than 1 of 4 bookings, which could cause significant operational and revenue risk.
+- Booking demand peaked during summer months which provides seasonal staffing and pricing opportunities
+- Third-party or Online Travel Agency (OTA) channels generate substantial booking volume but also contribute disproportionately to operational uncertainty and potential revenue loss due to elevated cancellation behavior.
+- Long lead-time reservations create increased forecasting risk, particularly within City Hotels where cancellation exposure is significantly higher.
+- Resort Hotel group bookings appear more stable and predictable, suggesting stronger customer commitment and lower booking volatility.
+- Seasonal demand spikes during August may require enhanced staffing, inventory planning, and cancellation management strategies to minimize operational disruption.
+
 
 #### Strategic Recommendations
 
@@ -86,6 +102,9 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 | Implement dynamic cancellation policies for long lead-time bookings | Reduce lost room inventory |
 | Improve predictive monitoring during peak booking seasons | Optimize staffing and room availability |
 
+<img width="1291" height="662" alt="image" src="https://github.com/user-attachments/assets/e4ebfb7a-c229-4df8-8cf8-8893af204905" />
+
+<img width="1282" height="331" alt="image" src="https://github.com/user-attachments/assets/24aea432-cbe3-413b-9a89-b684933ecad1" />
 
 
 ---
