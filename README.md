@@ -100,8 +100,7 @@ In addition to Tableau dashboard development, this project includes a predictive
 
 ### 1. Cancellation Overview 
 
-<img width="1286" height="576" alt="image" src="https://github.com/user-attachments/assets/c4924408-6dc9-4889-84f8-a4534a066f7e" />
-<img width="1285" height="416" alt="image" src="https://github.com/user-attachments/assets/54eb41aa-2e9e-490c-a62c-2251d2fdc095" />
+<img width="1297" height="1001" alt="image" src="https://github.com/user-attachments/assets/4be2fbc1-732e-4a04-bdba-4607dc4c33d6" />
 
 #### Key Findings 
 
