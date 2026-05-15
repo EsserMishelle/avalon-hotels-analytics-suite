@@ -67,11 +67,8 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 ### 1. Cancellation Overview Dashboard
 
-
 <img width="1286" height="576" alt="image" src="https://github.com/user-attachments/assets/c4924408-6dc9-4889-84f8-a4534a066f7e" />
-
 <img width="1285" height="416" alt="image" src="https://github.com/user-attachments/assets/54eb41aa-2e9e-490c-a62c-2251d2fdc095" />
-
 
 #### Key Findings 
 
@@ -103,6 +100,7 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 | Improve predictive monitoring during peak booking seasons | Optimize staffing and room availability |
 
 
+
 ---
 
 <img width="1291" height="662" alt="image" src="https://github.com/user-attachments/assets/e4ebfb7a-c229-4df8-8cf8-8893af204905" />
@@ -110,12 +108,12 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 ## Key Findings
 
-- Online Travel Agency (OTA) bookings represented the highest-risk market segment, reaching approximately **35% cancellation** while also generating the largest booking volume.
-- Group bookings maintained relatively lower cancellation behavior despite moderate booking volume, indicating stronger reservation stability compared to OTA channels.
+- Third-party or Online Travel Agency (OTA) bookings represented the highest-risk market segment, reaching approximately **35% cancellation** while also generating the largest booking volume.
+- Group bookings maintained relatively lower cancellation pattern despite moderate booking volume, indicating stronger reservation stability compared to OTA channels.
 - Long and very long booking lead times demonstrated significantly higher cancellation rates, particularly among non-refundable reservations.
-- Deposit policy analysis revealed that **Non-Refundable reservations experienced the highest cancellation exposure**, reaching approximately **49% average cancellation behavior**.
+- Very long lead-time reservations combined with Non-Refundable deposit policies demonstrated the highest observed cancellation exposure, reaching nearly **100% cancellation** rate within that booking category.
 - Couples represented the largest booking group composition, significantly exceeding solo travelers, families, and large groups in reservation volume.
-- Customers with higher numbers of special requests demonstrated lower cancellation behavior, suggesting stronger booking commitment and customer intent.
+- Customers with higher numbers of special requests exhibited lower cancellation behavior, suggesting stronger booking commitment and customer intent.
 - Guests with previous cancellation history showed elevated future cancellation risk, with cancellation rates peaking near **80%** among customers with one prior cancellation.
 
 ---
@@ -124,7 +122,7 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 - OTA channels contribute substantial booking demand but simultaneously create elevated operational uncertainty and forecasting risk.
 - Long lead-time reservations appear less reliable and may require additional monitoring, deposit requirements, or dynamic cancellation policies.
-- Customers demonstrating stronger engagement behaviors, such as submitting special requests, appear more committed to completing reservations.
+- Customers demonstrating stronger engagement behaviors, such as applying for special requests, appear more committed to completing reservations.
 - Historical cancellation behavior serves as a strong indicator of future cancellation risk, suggesting opportunities for predictive customer risk scoring.
 - Couples and family travelers represent important customer segments that may support targeted loyalty, retention, and bundled travel strategies.
 
@@ -134,12 +132,12 @@ The forecasting portion explores hotel booking demand behavior, seasonal fluctua
 
 | Recommendation | Expected Outcome |
 |---|---|
-| Implement stricter cancellation or deposit policies for high-risk OTA reservations | Reduce cancellation-related revenue loss |
+| Implement stricter cancellation or deposit policies for high-risk OTA reservations | Maintain exposure to third-party channel while reducing cancellation-related revenue loss |
 | Apply predictive risk monitoring for guests with prior cancellation history | Improve occupancy forecasting accuracy |
 | Encourage direct booking incentives and loyalty programs | Increase reservation stability and reduce OTA dependence |
 | Introduce targeted retention offers for high-risk long lead-time reservations | Improve booking conversion and occupancy retention |
 | Prioritize customer engagement features such as special request personalization | Strengthen customer commitment and reduce cancellations |
-| Develop tailored marketing packages for couples and family travelers | Improve customer retention and revenue opportunities |
+| Develop tailored marketing packages for couples and family visitors | Improve customer retention and revenue opportunities |
 
 ---
 
