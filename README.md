@@ -48,7 +48,7 @@ These key metrics were utilized to evaluate relationships between booking behavi
 
 ## Dataset
 
-The Avalon Hotels Analytics Suite contains reservation information for both resort hotels and city hotels between July 2015 and August 2017. This Kaggke Hotel Booking Demand Dataset includes hotel booking records and features related to reservation details, customer segmentation, Average Daily Rate (ADR), booking lead time, cancellation behavior, booking channels, deposit policies, and stay duration.
+The Avalon Hotels Analytics Suite contains reservation information for both resort hotels and city hotels between July 2015 and August 2017. This Kaggle Hotel Booking Demand Dataset includes hotel booking records and features related to reservation details, customer segmentation, Average Daily Rate (ADR), booking lead time, cancellation behavior, booking channels, deposit policies, and stay duration.
 
 ## Exploratory Data Analysis
 
@@ -73,11 +73,15 @@ After data cleaning, duplicate removal, and feature transformation, the final an
 
 The original dataset, the cleaned dataset, and the complete data dictionary containing detailed field definitions and variable descriptions are attached below.
 
-
+[Original Dataset](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/hotels.csv)
+[Cleaned Dataset](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/clean_hotels.csv)
 [Avalon Hotels Data Dictionary](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/assets/avalon_hotels_data_dictionary.xlsx)
 
 ---
 ## Tableau Visualization 
+
+The visual analysis was conducted in Tableau, which is attached here.
+[Avalon Hotel Analytics Suites](https://github.com/EsserMishelle/avalon-hotels-analytics-suite/blob/main/avalon-hotels-analytics-suites.twbx)
 
 ## Predictive Analytics & Forecasting
 
